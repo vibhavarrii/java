@@ -1,0 +1,8 @@
+@component - can be used in any java class
+easier to use
+autowiring - constructor or setter or field injection
+
+
+@Bean - to create a bean 
+you need to write code
+autowiring by method calls

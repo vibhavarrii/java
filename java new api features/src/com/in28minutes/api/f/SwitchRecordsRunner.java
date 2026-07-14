@@ -3,7 +3,7 @@ package com.in28minutes.api.f;
 public class SwitchRecordsRunner {
 	interface CustomerMessage{}
 	record Message(String text)implements CustomerMessage{}
-	record Feedback(int rating , String description) implements CustomerMessage{}
+	record Feedback(int rating , String description) implements CustomerMessage{}//all record classes are by default final
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

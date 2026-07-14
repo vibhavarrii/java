@@ -1,0 +1,13 @@
+lazy vs eager
+
+lazy ->@lazy
+bean intiliazed when it is first used
+eroor->runtime exception
+less memory
+
+
+eager->initialized at the start
+default
+@lazy(value=false)or absence of @lazy
+error prevents application to start
+more memory 
